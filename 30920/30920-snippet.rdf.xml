@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:schema="http://schema.org/" xmlns:rico="https://www.ica.org/standards/RiC/ontology#">
+  <rico:RecordSet rdf:about="https://archief.amsterdam/archief/30920">
+    <rico:identifier>30920</rico:identifier>
+    <rico:identifier>cf1d8cbacfd2d88b8c4b38324ab2acba</rico:identifier>
+    <rico:hasTitle>Archief van de Dienst Milieu en Bouwtoezicht en rechtsvoorgangers: bodemdossiers</rico:hasTitle>
+    <rdfs:label>Archief van de Dienst Milieu en Bouwtoezicht en rechtsvoorgangers: bodemdossiers</rdfs:label>
+    <rico:creationDate>1975 - 2013</rico:creationDate>
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds"/>
+  </rico:RecordSet>
+  <rico:RecordSet rdf:about="https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-1">
+    <rico:includedIn rdf:resource="https://archief.amsterdam/archief/30920"/>
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series"/>
+    <rico:identifier>1</rico:identifier>
+    <rico:identifier>b564cd1a6f3a6f0a19c12ac3c9e670f3-1</rico:identifier>
+    <rico:hasTitle>A. J. Ernststraat - Basisweg 65</rico:hasTitle>
+    <rdfs:label>A. J. Ernststraat - Basisweg 65</rdfs:label>
+  </rico:RecordSet>
+  <rico:RecordSet rdf:about="https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-2">
+    <rico:includedIn rdf:resource="https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-1"/>
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Subseries"/>
+    <rico:identifier>1</rico:identifier>
+    <rico:identifier>b564cd1a6f3a6f0a19c12ac3c9e670f3-2</rico:identifier>
+    <rico:hasTitle>A. J. Ernststraat</rico:hasTitle>
+    <rdfs:label>A. J. Ernststraat</rdfs:label>
+  </rico:RecordSet>
+  <rico:RecordSet rdf:about="https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-3">
+    <rico:includedIn rdf:resource="https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-2"/>
+    <rico:identifier>1</rico:identifier>
+    <rico:identifier>b564cd1a6f3a6f0a19c12ac3c9e670f3-3</rico:identifier>
+    <rico:hasTitle>Voorblad</rico:hasTitle>
+    <rdfs:label>Voorblad</rdfs:label>
+  </rico:RecordSet>
+  <rico:RecordSet rdf:about="https://archief.amsterdam/archief/30920/57e339d7a93ea419bc8a88aa2839ce1b">
+    <schema:url>https://archief.amsterdam/archief/30920/BO10092784</schema:url>
+    <rico:includedIn rdf:resource="https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-3"/>
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+    <rico:identifier>BO10092784</rico:identifier>
+    <rico:identifier>57e339d7a93ea419bc8a88aa2839ce1b</rico:identifier>
+    <rico:creationDate>21 Okt 1994</rico:creationDate>
+  </rico:RecordSet>
+  <rico:RecordSet rdf:about="https://archief.amsterdam/archief/30920/63fa75e6e856825eade49961f857071a-1">
+    <rico:includedIn rdf:resource="https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-2"/>
+    <rico:identifier>2</rico:identifier>
+    <rico:identifier>63fa75e6e856825eade49961f857071a-1</rico:identifier>
+    <rico:hasTitle>Onderzoeken</rico:hasTitle>
+    <rdfs:label>Onderzoeken</rdfs:label>
+  </rico:RecordSet>
+  <rico:RecordSet rdf:about="https://archief.amsterdam/archief/30920/eb832f7e3430f22142a99cb28656966c">
+    <schema:url>https://archief.amsterdam/archief/30920/BO10092787</schema:url>
+    <rico:includedIn rdf:resource="https://archief.amsterdam/archief/30920/63fa75e6e856825eade49961f857071a-1"/>
+    <rico:hasRecordSetType rdf:resource="https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File"/>
+    <rico:identifier>BO10092787</rico:identifier>
+    <rico:identifier>eb832f7e3430f22142a99cb28656966c</rico:identifier>
+    <rico:creationDate>28 Sep 1994</rico:creationDate>
+  </rico:RecordSet>
+</rdf:RDF>

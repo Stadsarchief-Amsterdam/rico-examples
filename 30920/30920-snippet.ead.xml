@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns:isbn="urn:isbn:1-931666-22-9" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/ead/ http://www.loc.gov/ead/ead.xsd">
+	<eadheader>
+		<eadid identifier="ef5f460d23b9eae69dabcf97279423c8">30920</eadid>
+		<filedesc>
+			<titlestmt>
+				<titleproper>Inventaris van het Archief van de Dienst Milieu en Bouwtoezicht en rechtsvoorgangers: bodemdossiers</titleproper>
+			</titlestmt>
+			<publicationstmt>
+				<publisher>Stadsarchief Amsterdam</publisher>
+			</publicationstmt>
+		</filedesc>
+	</eadheader>
+	<archdesc level="fonds">
+		<did id="NL-SAA-463540">
+			<head>Inventaris</head>
+			<unitid identifier="cf1d8cbacfd2d88b8c4b38324ab2acba" label="Toegangsnummer">30920</unitid>
+			<unittitle label="Naam">Archief van de Dienst Milieu en Bouwtoezicht en rechtsvoorgangers: bodemdossiers</unittitle>
+			<unitdate normal="1975/2013">1975 - 2013</unitdate>
+			<langmaterial>dut</langmaterial>
+			<repository>
+				<corpname>Stadsarchief Amsterdam</corpname>
+			</repository>
+			<origination>
+				<corpname>Dienst Milieu en Bouwtoezicht; bodemdossiers</corpname>
+			</origination>
+			<abstract>Deze bodemdossiers zijn gevormd door de Dienst Milieu en Bouwtoezicht (DMB) en haar rechtsvoorgangers Milieudienst en de Stafafdeling Hinderwet en Milieuzaken van de Dienst Bouw en Woningtoezicht. De dossiers zijn gevormd in de periode 1981-2014. 
+				
+				<lb/>
+				De inhoud van de bodemdossiers is de neerslag van de uitvoering van de Wet Bodembescherming. De Wet Bodembescherming (Wbb) is van kracht geworden in 1987. Tot die tijd vielen handelingen met betrekking tot bodem onder de Hinderwet (ingesteld in 1875). Bij de inwerkingtreding van de Wbb zijn Burgemeester en Wethouders van Amsterdam het bevoegd gezag geworden. De uitvoering van de Wbb taak werd door B&amp;W gedelegeerd aan de Stafafdeling Hinderwet en Milieuzaken, die vanaf 1990 verder ging als zelfstandige gemeentelijke Milieudienst en uiteindelijk in 2003 werd omgevormd tot Dienst Milieu en Bouwtoezicht. 
+				
+				<lb/>
+				Door de instelling van de Wbb werd er langzamerhand meer archief gevormd dat specifiek betrekking had op bodem. De toenmalige Milieudienst besloot begin jaren negentig specifieke bodemdossiers te gaan vormen. Specifieke stukken betrekking hebbend op de bodemgesteldheid zijn daarom vanuit de Hinderwetdossiers overgeheveld naar de bodemdossiers. De bodemdossiers bevatten documenten die door de afdelingen Bodemtoezicht en Bodemvergunningen van de DMB zijn opgemaakt of ontvangen. De dossiers zijn tot aan de opheffing van de dienst in 2014 altijd als dynamisch beschouwd en pas bij de opheffing formeel afgesloten.
+				
+				<lb/>
+				<lb/>
+				Deze dossiers bevatten locatie-gebonden documenten over in situ uitgevoerde bodemonderzoeken, saneringen en de evaluatieverslagen daarvan. De dossiers zijn voorzien van unieke AM0363-codes en gekoppeld aan een adres of terrein binnen de gemeentegrenzen van Amsterdam. 
+				
+				<lb/>
+				Door de lange looptijd  en grote omvang van sommige bodemdossiers zijn documenten van een groot dossier in verschillende inventarisnummers opgenomen. 
+				
+				<lb/>
+				Een bodemdossier is onderverdeeld in sub mappen waar zich een of meerdere documenten in kunnen bevinden.  De nu volgende sub mappen zijn daarbij gebruikt: Voorblad (dossier-historie), Monitoring en Nazorg, Evaluatie, Sanering en BUS-melding, Onderzoeken, Handhaving, Overdracht en Algemeen, Bouw, BSB en BBK
+				
+				<lb/>
+				<lb/>
+				Het op papier gevormde archief omvatte 463,5 strekkende meter dossiers die in de periode 2007-2017 zijn gedigitaliseerd, waarbij bovenstaande onderverdeling is gehandhaafd. Na toestemming voor Archiefwettelijke vervanging van de gemeentearchivaris te hebben verkregen, zijn de papieren dossiers in 2019 vernietigd waarna de gedigitaliseerde dossiers de status van origineel hebben gekregen.</abstract>
+		</did>
+		<dsc>
+			<c level="series">
+				<did>
+					<unitid identifier="b564cd1a6f3a6f0a19c12ac3c9e670f3-1" label="Rubriekscode">1</unitid>
+					<unittitle>A. J. Ernststraat - Basisweg 65</unittitle>
+				</did>
+				<c level="subseries">
+					<did>
+						<unitid identifier="b564cd1a6f3a6f0a19c12ac3c9e670f3-2" label="Rubriekscode">1</unitid>
+						<unittitle>A. J. Ernststraat</unittitle>
+					</did>
+					<c level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid identifier="b564cd1a6f3a6f0a19c12ac3c9e670f3-3" label="Inventarisnummers">1</unitid>
+							<unittitle>Voorblad</unittitle>
+						</did>
+						<c level="file">
+							<did>
+								<unitid identifier="57e339d7a93ea419bc8a88aa2839ce1b" label="Inventarisnummer">BO10092784</unitid>
+								<unitdate normal="1994-10-21">21 Okt 1994</unitdate>
+							</did>
+						</c>
+					</c>
+					<c level="otherlevel" otherlevel="filegrp">
+						<did>
+							<unitid identifier="63fa75e6e856825eade49961f857071a-1" label="Inventarisnummers">2</unitid>
+							<unittitle>Onderzoeken</unittitle>
+						</did>
+						<c level="file">
+							<did>
+								<unitid identifier="eb832f7e3430f22142a99cb28656966c" label="Inventarisnummer">BO10092787</unitid>
+								<unitdate normal="1994-09-28">28 Sep 1994</unitdate>
+							</did>
+						</c>
+					</c>
+				</c>
+			</c>
+		</dsc>
+	</archdesc>
+</ead>

@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+# let op! de uri's zijn allemaal verzonnen, er zit totaal (nog) geen logica in
+
+<https://archief.amsterdam/archief/30920>
+    a rico:RecordSet ;
+    rdfs:label "Archief van de Dienst Milieu en Bouwtoezicht en rechtsvoorgangers: bodemdossiers" ;
+    rico:creationDate "1975 - 2013" ;
+    rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds> ;
+    rico:hasTitle "Archief van de Dienst Milieu en Bouwtoezicht en rechtsvoorgangers: bodemdossiers" ;
+    rico:hasProvenance <https://archief.amsterdam/archief/30920#archiefvormer1> ;
+    rico:hasProvenance <https://archief.amsterdam/archief/30920#archiefvormer2> ;
+    rico:hasProvenance <https://archief.amsterdam/archief/30920#archiefvormer3> ;
+    rico:identifier "30920", "cf1d8cbacfd2d88b8c4b38324ab2acba" .
+
+<https://archief.amsterdam/archief/30920#archiefvormer1>
+    a rico:Agent ;
+    rdfs:label "Dienst Milieu en Bouwtoezicht (DMB)" .
+
+<https://archief.amsterdam/archief/30920#archiefvormer2>
+    a rico:Agent ;
+    rdfs:label "Milieudienst van de Dienst Bouw en Woningtoezicht" .
+
+<https://archief.amsterdam/archief/30920#archiefvormer3>
+    a rico:Agent ;
+    rdfs:label "Stafafdeling Hinderwet en Milieuzaken van de Dienst Bouw en Woningtoezicht" .
+
+<https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-1>
+    a rico:RecordSet ;
+    rdfs:label "A. J. Ernststraat - Basisweg 65" ;
+    rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
+    rico:hasTitle "A. J. Ernststraat - Basisweg 65" ;
+    rico:identifier "1", "b564cd1a6f3a6f0a19c12ac3c9e670f3-1" ;
+    rico:includedIn <https://archief.amsterdam/archief/30920> .
+
+<https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-2>
+    a rico:RecordSet ;
+    rdfs:label "A. J. Ernststraat" ;
+    rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
+    rico:hasTitle "A. J. Ernststraat" ;
+    rico:hasSubject <https://adamlink.nl/geo/street/arent-janszoon-ernststraat/218> ;
+    rico:identifier "1", "b564cd1a6f3a6f0a19c12ac3c9e670f3-2" ;
+    rico:includedIn <https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-1> .
+
+<https://adamlink.nl/geo/street/arent-janszoon-ernststraat/218>
+    a rico:Place ;
+    rdfs:label "Arent Janszoon Ernststraat" ;
+    schema:sameAs <http://bag.basisregistraties.overheid.nl/bag/id/openbare-ruimte/0363300000002749> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q2322685> .
+
+<https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-3>
+    a rico:RecordSet ;
+    rdfs:label "Voorblad" ;
+    rico:hasTitle "Voorblad" ;
+    rico:identifier "1", "b564cd1a6f3a6f0a19c12ac3c9e670f3-3" ;
+    rico:includedIn <https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-2> .
+
+<https://archief.amsterdam/archief/30920/57e339d7a93ea419bc8a88aa2839ce1b>
+    schema:url "https://archief.amsterdam/archief/30920/BO10092784" ;
+    a rico:RecordSet ;
+    rdfs:label "BO10092784";
+    rico:creationDate "21 Okt 1994" ;
+    rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+    rico:identifier "57e339d7a93ea419bc8a88aa2839ce1b", "BO10092784" ;
+    rico:includedIn <https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-3> .
+
+<https://archief.amsterdam/archief/30920/57e339d7a93ea419bc8a88aa2839ce1b#instantiation>
+    a rico:Instantiation ;
+    rico:instantiates <https://archief.amsterdam/archief/30920/57e339d7a93ea419bc8a88aa2839ce1b> .
+
+<https://archief.amsterdam/archief/30920/57e339d7a93ea419bc8a88aa2839ce1b#scan1>
+    a rico:Instantiation ;
+    rico:isComponentOf <https://archief.amsterdam/archief/30920/57e339d7a93ea419bc8a88aa2839ce1b#instantiation> ; 
+    schema:url "https://archief.amsterdam/inventarissen/scans/30920/1.1.1.1/start/0/limit/10/highlight/1" ;
+    schema:image "https://download-images.memorix.nl/ams/download/fullsize/4cfc3817-8859-a1a2-7734-6803db25e35d.jpg" .
+
+<https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-3#scan2>
+    a rico:Instantiation ;
+    rico:isComponentOf <https://archief.amsterdam/archief/30920/57e339d7a93ea419bc8a88aa2839ce1b#instantiation> ; 
+    schema:url "https://archief.amsterdam/inventarissen/scans/30920/1.1.1.1/start/0/limit/10/highlight/2" ;
+    schema:image "https://download-images.memorix.nl/ams/download/fullsize/6627dd55-3bd7-2f4b-1ce5-05586d1eb9fd.jpg" .
+
+<https://archief.amsterdam/archief/30920/63fa75e6e856825eade49961f857071a-1>
+    a rico:RecordSet ;
+    rdfs:label "Onderzoeken" ;
+    rico:hasTitle "Onderzoeken" ;
+    rico:identifier "2", "63fa75e6e856825eade49961f857071a-1" ;
+    rico:includedIn <https://archief.amsterdam/archief/30920/b564cd1a6f3a6f0a19c12ac3c9e670f3-2> .
+
+<https://archief.amsterdam/archief/30920/eb832f7e3430f22142a99cb28656966c>
+    schema:url "https://archief.amsterdam/archief/30920/BO10092787" ;
+    a rico:RecordSet ;
+    rdfs:label "BO10092787" ;
+    rico:creationDate "28 Sep 1994" ;
+    rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+    rico:identifier "BO10092787", "eb832f7e3430f22142a99cb28656966c" ;
+    rico:includedIn <https://archief.amsterdam/archief/30920/63fa75e6e856825eade49961f857071a-1> .
+
+<https://archief.amsterdam/archief/30920/eb832f7e3430f22142a99cb28656966c#instantiation>
+    a rico:Instantiation ;
+    rico:instantiates <https://archief.amsterdam/archief/30920/eb832f7e3430f22142a99cb28656966c> .
+
+<https://archief.amsterdam/archief/30920/eb832f7e3430f22142a99cb28656966c#scan1>
+    a rico:Instantiation ;
+    rico:isComponentOf <https://archief.amsterdam/archief/30920/eb832f7e3430f22142a99cb28656966c#instantiation> ;
+    schema:url "https://archief.amsterdam/inventarissen/scans/30920/1.1.2.1/start/0/limit/10/highlight/1" ;
+    schema:image "https://download-images.memorix.nl/ams/download/fullsize/b703c5c8-7d1a-e4f7-bace-5a196e322f00.jpg" .
