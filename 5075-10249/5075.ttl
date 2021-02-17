@@ -14,9 +14,9 @@
     a rico:RecordSet ;
     schema:url "https://archief.amsterdam/archief/5075" ;
     rdfs:label "Archief van de Notarissen ter Standplaats Amsterdam" ;
-    rico:creationDate "1578 - 1915" ;
+    rico:date "1578 - 1915" ;
     rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds> ;
-    rico:hasTitle "Archief van de Notarissen ter Standplaats Amsterdam" ;
+    rico:title "Archief van de Notarissen ter Standplaats Amsterdam" ;
     rico:identifier "5075", "d5b98b7afa50a3af4fba8053b06fb961" .
 
 
@@ -24,7 +24,7 @@
     a rico:RecordSet ;
     rdfs:label "BENJAMIN PHAFF" ;
     rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
-    rico:hasTitle "BENJAMIN PHAFF" ;
+    rico:title "BENJAMIN PHAFF" ;
     rico:identifier "341", "0581a57046d4dd56c02bd013ed6def54" ;
     rico:hasProvenance <https://archief.amsterdam/0581a57046d4dd56c02bd013ed6def54#archiefvormer1> ;
     rico:isOrWasIncludedIn <https://archief.amsterdam/d5b98b7afa50a3af4fba8053b06fb961> .
@@ -37,8 +37,8 @@
 <https://archief.amsterdam/01d20ae501300a10442b71c21b379a7c>
     a rico:RecordSet ;
     rdfs:label "Minuutacten." ;
-    rico:creationDate "1733 - 1761" ;
-    rico:hasTitle "Minuutacten." ;
+    rico:date "1733 - 1761" ;
+    rico:title "Minuutacten." ;
     rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
     rico:identifier "10197-10295", "01d20ae501300a10442b71c21b379a7c" ;
     rico:isOrWasIncludedIn <https://archief.amsterdam/0581a57046d4dd56c02bd013ed6def54> .    
@@ -47,9 +47,9 @@
     a rico:RecordSet ;
     schema:url "https://archief.amsterdam/archief/5075/10249" ;
     rdfs:label "1749 Juli 1-1749 September 30; met alphab.index." ;
-    rico:creationDate "1749" ;
+    rico:date "1749" ;
     rico:hasRecordSetType <https://archief.amsterdam/voc/notarieel-protocol> ;
-    rico:hasTitle "1749 Juli 1-1749 September 30; met alphab.index." ;
+    rico:title "1749 Juli 1-1749 September 30; met alphab.index." ;
     rico:identifier "10249", "905d9dcf17394ea0a16d1b8c602946b8" ;
     rico:isOrWasIncludedIn <https://archief.amsterdam/01d20ae501300a10442b71c21b379a7c> .
 
@@ -70,9 +70,9 @@
     a rico:Record ;
     schema:url "https://archief.amsterdam/indexen/deeds/b21a5c6d-bb4f-6a83-e053-b784100a6e32" ;
     rdfs:label "'Den 12 September 1749 Bastiaan van der Sloot procuratie op Willem de Kemp c.s.'" ;
-    rico:creationDate "1749-09-12" ;
+    rico:date "1749-09-12" ;
     rico:hasDocumentaryFormType <https://archief.amsterdam/vocabulary/machtiging> ;
-    rico:hasTitle "'Den 12 September 1749 Bastiaan van der Sloot procuratie op Willem de Kemp c.s.'" ;
+    rico:title "'Den 12 September 1749 Bastiaan van der Sloot procuratie op Willem de Kemp c.s.'" ;
     rico:isOrWasIncludedIn <https://archief.amsterdam/905d9dcf17394ea0a16d1b8c602946b8> ;
     rico:hasOrHadSubject <https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32#person1>, 
     				<https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32#place1>, 
@@ -108,17 +108,17 @@
     a rico:Instantiation ;
     schema:url "https://images.memorix.nl/ams/download/fullsize/57f5d7ce-281c-eb01-cffc-73f2e0023e7a.jpg" ;
     rdfs:label "scan 57f5d7ce281ceb01cffc73f2e0023e7a" ;
-    rico:creationDate "2019-01-19" ; # of zoiets
-    rico:isComponentOf <https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32#instantiation> ;
-    rico:isComponentOf <https://archief.amsterdam/905d9dcf17394ea0a16d1b8c602946b8#instantiation2> .
+    rico:date "2019-01-19" ; # of zoiets
+    rico:isOrWasComponentOf <https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32#instantiation> ;
+    rico:isOrWasComponentOf <https://archief.amsterdam/905d9dcf17394ea0a16d1b8c602946b8#instantiation2> .
 
 <https://archief.amsterdam/3df6313ac96697e095ef08784d1def37>
     a rico:Instantiation ;
     schema:url "https://images.memorix.nl/ams/download/fullsize/3df6313a-c966-97e0-95ef-08784d1def37.jpg" ;
     rdfs:label "scan 3df6313ac96697e095ef08784d1def37" ;
     rico:creationDate "2019-01-19" ; # of zoiets
-    rico:isComponentOf <https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32#instantiation> ;
-    rico:isComponentOf <https://archief.amsterdam/905d9dcf17394ea0a16d1b8c602946b8#instantiation2> .
+    rico:isOrWasComponentOf <https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32#instantiation> ;
+    rico:isOrWasComponentOf <https://archief.amsterdam/905d9dcf17394ea0a16d1b8c602946b8#instantiation2> .
 
 # vocabulair (normaal gesproken elders gedefinieerd)
 

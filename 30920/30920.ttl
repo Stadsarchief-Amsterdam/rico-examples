@@ -1,0 +1,91 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+
+# let op! er ligt geen uri-strategie ten grondslag aan dit voorbeeld!
+
+# toegang:
+# skip allerlei structuren uit deze toegang
+
+<https://archief.amsterdam/cf1d8cbacfd2d88b8c4b38324ab2acba>
+    a rico:RecordSet ;
+    schema:url "https://archief.amsterdam/archief/30920" ;
+    rdfs:label "Archief van de Dienst Milieu en Bouwtoezicht en rechtsvoorgangers: bodemdossiers" ;
+    rico:date "1975 - 2013" ;
+    rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds> ;
+    rico:title "Archief van de Dienst Milieu en Bouwtoezicht en rechtsvoorgangers: bodemdossiers" ;
+    rico:hasProvenance <https://archief.amsterdam/cf1d8cbacfd2d88b8c4b38324ab2acba#archiefvormer1> ;
+    rico:hasProvenance <https://archief.amsterdam/cf1d8cbacfd2d88b8c4b38324ab2acba#archiefvormer2> ;
+    rico:hasProvenance <https://archief.amsterdam/cf1d8cbacfd2d88b8c4b38324ab2acba#archiefvormer3> ;
+    rico:identifier "30920", "cf1d8cbacfd2d88b8c4b38324ab2acba" .
+
+<https://archief.amsterdam/cf1d8cbacfd2d88b8c4b38324ab2acba#archiefvormer1>
+    a rico:Agent ;
+    rdfs:label "Dienst Milieu en Bouwtoezicht (DMB)" .
+
+<https://archief.amsterdam/cf1d8cbacfd2d88b8c4b38324ab2acba#archiefvormer2>
+    a rico:Agent ;
+    rdfs:label "Milieudienst van de Dienst Bouw en Woningtoezicht" .
+
+<https://archief.amsterdam/cf1d8cbacfd2d88b8c4b38324ab2acba#archiefvormer3>
+    a rico:Agent ;
+    rdfs:label "Stafafdeling Hinderwet en Milieuzaken van de Dienst Bouw en Woningtoezicht" .
+
+<https://archief.amsterdam/b564cd1a6f3a6f0a19c12ac3c9e670f3-2>
+    a rico:RecordSet ;
+    rdfs:label "Dossier A. J. Ernststraat" ;
+    rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
+    rico:title "Dossier A. J. Ernststraat" ;
+    rico:hasOrHadSubject <https://adamlink.nl/geo/street/arent-janszoon-ernststraat/218> ;
+    rico:identifier "1", "b564cd1a6f3a6f0a19c12ac3c9e670f3-2" ;
+    rico:isOrWasIncludedIn <https://archief.amsterdam/cf1d8cbacfd2d88b8c4b38324ab2acba> .
+
+<https://adamlink.nl/geo/street/arent-janszoon-ernststraat/218>
+    a rico:Place ;
+    rdfs:label "Arent Janszoon Ernststraat" ;
+    schema:sameAs <http://bag.basisregistraties.overheid.nl/bag/id/openbare-ruimte/0363300000002749> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q2322685> .
+
+<https://archief.amsterdam/57e339d7a93ea419bc8a88aa2839ce1b>
+    a rico:Record ;
+    rdfs:label "BO10092784 Voorblad" ;
+    rico:title "BO10092784 Voorblad" ;
+    rico:date "21 Okt 1994" ;
+    rico:identifier "1" ;
+    rico:isOrWasIncludedIn <https://archief.amsterdam/b564cd1a6f3a6f0a19c12ac3c9e670f3-2> .
+
+<https://archief.amsterdam/57e339d7a93ea419bc8a88aa2839ce1b#instantiation>
+    a rico:Instantiation ;
+    rico:isInstantiationOf <https://archief.amsterdam/57e339d7a93ea419bc8a88aa2839ce1b> .
+
+<https://archief.amsterdam/4cfc38178859a1a277346803db25e35d>
+    a rico:Instantiation ;
+    rico:isOrWasComponentOf <https://archief.amsterdam/57e339d7a93ea419bc8a88aa2839ce1b#instantiation> ; 
+    schema:url "https://archief.amsterdam/inventarissen/scans/30920/1.1.1.1/start/0/limit/10/highlight/1" ;
+    schema:image "https://download-images.memorix.nl/ams/download/fullsize/4cfc3817-8859-a1a2-7734-6803db25e35d.jpg" .
+
+<https://archief.amsterdam/6627dd553bd72f4b1ce505586d1eb9fd>
+    a rico:Instantiation ;
+    rico:isOrWasComponentOf <https://archief.amsterdam/57e339d7a93ea419bc8a88aa2839ce1b#instantiation> ; 
+    schema:url "https://archief.amsterdam/inventarissen/scans/30920/1.1.1.1/start/0/limit/10/highlight/2" ;
+    schema:image "https://download-images.memorix.nl/ams/download/fullsize/6627dd55-3bd7-2f4b-1ce5-05586d1eb9fd.jpg" .
+
+<https://archief.amsterdam/eb832f7e3430f22142a99cb28656966c>
+    a rico:Record ;
+    rdfs:label "BO10092787 Onderzoeken" ;
+    rico:title "BO10092787 Onderzoeken" ;
+    rico:date "28 Sep 1994" ;
+    schema:url "https://archief.amsterdam/archief/30920/BO10092787" ;
+    rico:identifier "2" ;
+    rico:isOrWasIncludedIn <https://archief.amsterdam/b564cd1a6f3a6f0a19c12ac3c9e670f3-2> .
+
+<https://archief.amsterdam/eb832f7e3430f22142a99cb28656966c#instantiation>
+    a rico:Instantiation ;
+    rico:isInstantiationOf <https://archief.amsterdam/eb832f7e3430f22142a99cb28656966c> .
+
+<https://archief.amsterdam/b703c5c87d1ae4f7bace5a196e322f00>
+    a rico:Instantiation ;
+    rico:isOrWasComponentOf <https://archief.amsterdam/eb832f7e3430f22142a99cb28656966c#instantiation> ;
+    schema:url "https://archief.amsterdam/inventarissen/scans/30920/1.1.2.1/start/0/limit/10/highlight/1" ;
+    schema:image "https://download-images.memorix.nl/ams/download/fullsize/b703c5c8-7d1a-e4f7-bace-5a196e322f00.jpg" .
