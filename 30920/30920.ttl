@@ -11,7 +11,7 @@
 <https://archief.amsterdam/cf1d8cbacfd2d88b8c4b38324ab2acba>
     a rico:RecordSet ;
     schema:url "https://archief.amsterdam/archief/30920" ;
-    rdfs:label "Archief van de Dienst Milieu en Bouwtoezicht en rechtsvoorgangers: bodemdossiers" ;
+    rdfs:label "Archief DMB: bodemdossiers" ;
     rico:date "1975 - 2013" ;
     rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds> ;
     rico:title "Archief van de Dienst Milieu en Bouwtoezicht en rechtsvoorgangers: bodemdossiers" ;
@@ -47,6 +47,14 @@
     schema:sameAs <http://bag.basisregistraties.overheid.nl/bag/id/openbare-ruimte/0363300000002749> ;
     schema:sameAs <http://www.wikidata.org/entity/Q2322685> .
 
+<http://bag.basisregistraties.overheid.nl/bag/id/openbare-ruimte/0363300000002749>
+    a rico:Place ;
+    rdfs:label "BAGID: 0363300000002749" .
+
+<http://www.wikidata.org/entity/Q2322685>
+    a rico:Place ;
+    rdfs:label "wikidata: Q2322685" .
+
 <https://archief.amsterdam/57e339d7a93ea419bc8a88aa2839ce1b>
     a rico:Record ;
     rdfs:label "BO10092784 Voorblad" ;
@@ -57,16 +65,19 @@
 
 <https://archief.amsterdam/57e339d7a93ea419bc8a88aa2839ce1b#instantiation>
     a rico:Instantiation ;
+    rdfs:label "scans van BO10092784" ;
     rico:isInstantiationOf <https://archief.amsterdam/57e339d7a93ea419bc8a88aa2839ce1b> .
 
 <https://archief.amsterdam/4cfc38178859a1a277346803db25e35d>
     a rico:Instantiation ;
+    rdfs:label "scan 4cfc38178859a1a277346803db25e35d" ;
     rico:isOrWasComponentOf <https://archief.amsterdam/57e339d7a93ea419bc8a88aa2839ce1b#instantiation> ; 
     schema:url "https://archief.amsterdam/inventarissen/scans/30920/1.1.1.1/start/0/limit/10/highlight/1" ;
     schema:image "https://download-images.memorix.nl/ams/download/fullsize/4cfc3817-8859-a1a2-7734-6803db25e35d.jpg" .
 
 <https://archief.amsterdam/6627dd553bd72f4b1ce505586d1eb9fd>
     a rico:Instantiation ;
+    rdfs:label "scan 6627dd553bd72f4b1ce505586d1eb9fd" ;
     rico:isOrWasComponentOf <https://archief.amsterdam/57e339d7a93ea419bc8a88aa2839ce1b#instantiation> ; 
     schema:url "https://archief.amsterdam/inventarissen/scans/30920/1.1.1.1/start/0/limit/10/highlight/2" ;
     schema:image "https://download-images.memorix.nl/ams/download/fullsize/6627dd55-3bd7-2f4b-1ce5-05586d1eb9fd.jpg" .
@@ -82,10 +93,12 @@
 
 <https://archief.amsterdam/eb832f7e3430f22142a99cb28656966c#instantiation>
     a rico:Instantiation ;
+    rdfs:label "scans van BO10092787" ;
     rico:isInstantiationOf <https://archief.amsterdam/eb832f7e3430f22142a99cb28656966c> .
 
 <https://archief.amsterdam/b703c5c87d1ae4f7bace5a196e322f00>
     a rico:Instantiation ;
+    rdfs:label "scan b703c5c87d1ae4f7bace5a196e322f00" ;
     rico:isOrWasComponentOf <https://archief.amsterdam/eb832f7e3430f22142a99cb28656966c#instantiation> ;
     schema:url "https://archief.amsterdam/inventarissen/scans/30920/1.1.2.1/start/0/limit/10/highlight/1" ;
     schema:image "https://download-images.memorix.nl/ams/download/fullsize/b703c5c8-7d1a-e4f7-bace-5a196e322f00.jpg" .

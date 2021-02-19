@@ -13,7 +13,7 @@
 <https://archief.amsterdam/d5b98b7afa50a3af4fba8053b06fb961>
     a rico:RecordSet ;
     schema:url "https://archief.amsterdam/archief/5075" ;
-    rdfs:label "Archief van de Notarissen ter Standplaats Amsterdam" ;
+    rdfs:label "Archief Notarissen Amsterdam" ;
     rico:date "1578 - 1915" ;
     rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds> ;
     rico:title "Archief van de Notarissen ter Standplaats Amsterdam" ;
@@ -36,7 +36,7 @@
 
 <https://archief.amsterdam/01d20ae501300a10442b71c21b379a7c>
     a rico:RecordSet ;
-    rdfs:label "Minuutacten." ;
+    rdfs:label "Minuutacten" ;
     rico:date "1733 - 1761" ;
     rico:title "Minuutacten." ;
     rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
@@ -46,7 +46,7 @@
 <https://archief.amsterdam/905d9dcf17394ea0a16d1b8c602946b8>
     a rico:RecordSet ;
     schema:url "https://archief.amsterdam/archief/5075/10249" ;
-    rdfs:label "1749 Juli 1-1749 September 30; met alphab.index." ;
+    rdfs:label "1749 Juli 1-1749 September 30" ;
     rico:date "1749" ;
     rico:hasRecordSetType <https://archief.amsterdam/voc/notarieel-protocol> ;
     rico:title "1749 Juli 1-1749 September 30; met alphab.index." ;
@@ -55,12 +55,12 @@
 
 <https://archief.amsterdam/905d9dcf17394ea0a16d1b8c602946b8#instantiation1>
     a rico:Instantiation ;
-    rdfs:label "Stelling xx, plank yy, invnr 10249" ;
+    rdfs:label "invnr 10249: stelling xx, plank yy" ;
     rico:isInstantiationOf <https://archief.amsterdam/905d9dcf17394ea0a16d1b8c602946b8> .
 
 <https://archief.amsterdam/905d9dcf17394ea0a16d1b8c602946b8#instantiation2>
     a rico:Instantiation ;
-    rdfs:label "Scans van invnr 10249" ;
+    rdfs:label "scans van invnr 10249" ;
     rico:isInstantiationOf <https://archief.amsterdam/905d9dcf17394ea0a16d1b8c602946b8> .
 
 # index:
@@ -69,7 +69,7 @@
 <https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32>
     a rico:Record ;
     schema:url "https://archief.amsterdam/indexen/deeds/b21a5c6d-bb4f-6a83-e053-b784100a6e32" ;
-    rdfs:label "'Den 12 September 1749 Bastiaan van der Sloot procuratie op Willem de Kemp c.s.'" ;
+    rdfs:label "akte 476255" ;
     rico:date "1749-09-12" ;
     rico:hasDocumentaryFormType <https://archief.amsterdam/vocabulary/machtiging> ;
     rico:title "'Den 12 September 1749 Bastiaan van der Sloot procuratie op Willem de Kemp c.s.'" ;
@@ -80,7 +80,7 @@
 
 <https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32#instantiation>
     a rico:Instantiation ;
-    rdfs:label "Scans deed 476255" ;
+    rdfs:label "scans van akte 476255" ;
     rico:isInstantiationOf <https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32> .
 
 
