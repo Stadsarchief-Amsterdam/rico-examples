@@ -85,11 +85,13 @@
 
 
 <https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32#person1>
-	a rico:Person ;
+	a rico:Person, roar:PersonObservation, schema:Person ;
 	rdfs:label "Bastiaan van der Sloot" ;
-    pnv:baseSurname "Sloot" ;
-    pnv:surnamePrefix "van der" ;
-    pnv:givenName "Bastiaan" ;
+    pnv:hasName [ a pnv:PersonName
+        pnv:baseSurname "Sloot" ;
+        pnv:surnamePrefix "van der" ;
+        pnv:givenName "Bastiaan" ;
+    ]
     schema:birthPlace "Rotterdam" .
 
 <https://archief.amsterdam/b21a5c6dbb4f6a83e053b784100a6e32#place1>

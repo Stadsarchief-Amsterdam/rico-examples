@@ -1,0 +1,73 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://id.archief.amsterdam/3e24a78048ce6f5a87328d6fd4923224>
+	a rico:RecordSet ;
+	rdfs:label "invnr 548" ;
+	rico:title "Buurt U, afdeling 6, deel 1" ;
+	rdfs:date "1851-01-01/1853-12-31" ;
+	rico:identifier "548" ;
+	schema:url "https://archief.amsterdam/archief/5000/548" .
+
+<https://id.archief.amsterdam/e46da468ada04a11a351c2eec40f616d>
+	a rico:Record ;
+	rdfs:label "pagina 1577" ; 
+#	saa:heeftGeregistreerde <https://id.archief.amsterdam/962316b4b0a51f3ae053b784100aab65> ;
+#	rico:hasOrHadSubject <https://id.archief.amsterdam/962316b4b0a51f3ae053b784100aab65> ;
+	roar:hasPerson <https://id.archief.amsterdam/962316b4b0a51f3ae053b784100aab65> ;
+	roar:hasLocation <https://id.archief.amsterdam/UUID-voor-locatie-observatie> ;	
+	rico:hasRecordSetType <https://id.archief.amsterdam/UUID-van-inschrijving-bevolkingsregister> ;
+    rico:isOrWasIncludedIn <https://id.archief.amsterdam/3e24a78048ce6f5a87328d6fd4923224> . 
+
+<https://id.archief.amsterdam/8feff28bd0894c59bb4ef62add6f51eb>
+	a rico:Instantiation ;
+	rdfs:label "scan van pagina 1577" ;
+    rico:isInstantiationOf <https://id.archief.amsterdam/e46da468ada04a11a351c2eec40f616d> .
+
+<https://id.archief.amsterdam/962316b4b0a51f3ae053b784100aab65>
+# UUID van person: waar komt deze UUID vandaan?
+	a rico:Person, roar:PersonObservation, pnv:Person, schema:Person ;
+	rdfs:label "Petrus Wedewer" ;
+	pnv:hasName [ a pnv:PersonName
+	    pnv:baseSurname "Wedewer" ;
+	    pnv:givenName "Petrus" ;
+	]
+#	tbd:religie "Rooms-Katholiek" ;
+#	tbd:gehuwd "ja" ;
+#	tbd:overleden "ja" ;
+#	tbd:legeronderdeel "bla die bla" ;
+#	tbd:rang "bla die bla" ;
+	rico:hasOccupation "smid" ;
+    roar:role <https://id.archief.amsterdam/UUID-van-geregistreerde> ; # geregistreerde is eigenlijk geen rol, weglaten is beter
+    schema:birthPlace "Zevenaar" ;
+    schema:birthDate "1818-03-23" .
+
+<https://id.archief.amsterdam/UUID-voor-locatie-observatie>
+	a rico:Place, roar:LocationObservation ;
+	rdfs:label "U 616" ;
+#   tbd:benaming_in_bron "Kadijk Hoogte" ;
+#   tbd:buurtcode "U" ;
+#   tbd:buurtnummer "616" ;
+#   tbd:kleinnummer "Kadijk Hoogte 150" ;
+#   tbd:straat "Kadijk Hoogte" ;
+#   tbd:straat_uri <https://adamlink.nl/geo/street/hoogte-kadijk/1877> ;
+#   tbd:huisnummer "150" ;
+	roar:role <https://id.archief.amsterdam/UUID-voor-woonadres> .
+
+# VOCABULARY
+
+<https://id.archief.amsterdam/UUID-van-woonadres>
+    a skos:Concept ;
+    rdfs:label "woonadres" .
+
+<https://id.archief.amsterdam/UUID-van-inschrijving-bevolkingsregister>
+    a rico:RecordSetType ;
+    rdfs:label "inschrijving bevolkingsregister" .
+
+<https://id.archief.amsterdam/UUID-van-geregistreerde>
+    a skos:Concept ;
+    rdfs:label "geregistreerde" .

@@ -1,0 +1,62 @@
+<record>
+    <akte>
+        <!-- https://archief.amsterdam/indexen/deeds/e46da468-ada0-4a11-a351-c2eec40f616d -->
+        <type>Inschrijving bevolkingsregister</type>
+        <datum>Wat wordt dat? Is die hier relevant?</datum>
+        <bronverwijzing>Buurt U, afdeling 6, deel 1</bronverwijzing>
+        <paginanummer>pagina 1577</paginanummer>
+        <extra:vraag>
+            <laatstewijziging>04-1855 - wat is dit?</laatstewijziging>
+        </extra:vraag>
+        <inventaris>https://archief.amsterdam/archief/5000/548</inventaris>
+        <scans>
+            <scan_uuid>8feff28b-d089-4c59-bb4e-f62add6f51eb</scan_uuid>
+        </scans>
+        <extra:vraag>Voor zoeken van belang, dat gegevens uit archief en inventaris (zoals in dit geval de periode) erbij geindexeerd gaan worden</extra:vraag>
+        <personen>
+            <persoon>
+                <type>geregistreerde</type>
+                <voornaam>Petrus</voornaam>
+                <achternaam>Wedewer</achternaam>
+                <datum>
+                    <type>geboortedatum</type>
+                    <label>28-03-1818</label>
+                </datum>
+                <locaties>
+                    <locatie>
+                        <type>geboorteplaats</type>
+                        <label>Zevenaar</label>
+                    </locatie>
+                </locaties>
+                <extra:vraag>Of beroep bij bijzonderheden?</extra:vraag>
+                <beroep>smid</beroep>
+                <overleden>ja</overleden>
+                <bijzonderheden>
+                    <gehuwd>ja</gehuwd>
+                    <geloof>Rooms-Katholiek</geloof>
+                </bijzonderheden>
+            </persoon>
+        </personen>
+        <locaties>
+            <extra:vraag>Moet deze locatie die nu apart staat, ook nog? Nelleke denkt adres voldoende</extra:vraag>
+            <extra:vraag>Voor Marc: kleinnummer [150], en adres: is iig samengesteld. Hoe te migreren?</extra:vraag>
+            <locatie>
+                <type>straat</type>
+                <label>Kadijk Hoogte</label>
+            </locatie>
+        </locaties>
+        <adressen>
+            <extra:vraag>Kan een akte ooit meerdere adressen hebben?</extra:vraag>
+            <adres>
+                <type>woonadres</type>
+                <benaming_in_bron>Kadijk Hoogte</benaming_in_bron>
+                <buurtcode>U</buurtcode>
+                <buurtnummer>616</buurtnummer>
+                <kleinnummer>Kadijk Hoogte 150</kleinnummer>
+                <straat>Kadijk Hoogte</straat>
+                <extra:straat_uri>https://adamlink.nl/geo/street/hoogte-kadijk/1877</extra:straat_uri>
+                <huisnummer>150</huisnummer>
+            </adres>
+        </adressen>
+    </akte>
+</record>
