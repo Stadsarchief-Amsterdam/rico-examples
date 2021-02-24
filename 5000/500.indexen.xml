@@ -1,0 +1,50 @@
+<record>
+    <!-- https://archief.amsterdam/indexen/deeds/e46da468-ada0-4a11-a351-c2eec40f616d -->
+    <type>registratie</type>
+    <bronverwijzing>Buurt U, afdeling 6, deel 1</bronverwijzing>
+    <paginanummer>pagina 1577</paginanummer>
+    <inventaris>https://archief.amsterdam/archief/5000/548</inventaris>
+    <scans>
+        <scan_uuid>8feff28b-d089-4c59-bb4e-f62add6f51eb</scan_uuid>
+    </scans>
+    <personen>
+        <persoon>
+            <type>geregistreerde</type>
+            <voornaam>Petrus</voornaam>
+            <achternaam>Wedewer</achternaam>
+            <geboortedatum>28-03-1818</geboortedatum>
+            <overlijdensdatum></overlijdensdatum>
+            <!-- bewust alleen geboorte en overlijden? En waarom dan voor locaties hier anders? Of ook blokjes?-->
+            <datums>
+                <datum>
+                    <type>geboortedatum</type>
+                    <label>28-03-1818</label>
+                </datum>
+            </datums>
+            <locaties>
+                <locatie>
+                    <type>geboorteplaats</type>
+                    <benaming_in_bron>Zevenaar</benaming_in_bron>
+                </locatie>
+            </locaties>
+            <beroep>smid</beroep>
+            <overleden>ja</overleden>
+            <bijzonderheden>
+                <gehuwd>ja</gehuwd>
+                <geloof>Rooms-Katholiek</geloof>
+            </bijzonderheden>
+        </persoon>
+    </personen>
+    <adressen>
+        <adres>
+            <type>woonadres</type>
+            <benaming_in_bron>Kadijk Hoogte</benaming_in_bron>
+            <buurtcode>U</buurtcode>
+            <buurtnummer>616</buurtnummer>
+            <kleinnummer>Kadijk Hoogte 150</kleinnummer>
+            <straat>Kadijk Hoogte</straat>
+            <straat_uri>https://adamlink.nl/geo/street/hoogte-kadijk/1877</straat_uri>
+            <huisnummer>150</huisnummer>
+        </adres>
+    </adressen>
+</record>
