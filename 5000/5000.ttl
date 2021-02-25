@@ -29,12 +29,12 @@
     rico:isInstantiationOf <https://id.archief.amsterdam/e46da468ada04a11a351c2eec40f616d> .
 
 <https://id.archief.amsterdam/962316b4b0a51f3ae053b784100aab65>
-# UUID van person: waar komt deze UUID vandaan?
 	a rico:Person, roar:PersonObservation, pnv:Person, schema:Person ;
 	rdfs:label "Petrus Wedewer" ;
-	pnv:hasName [ a pnv:PersonName
+	pnv:hasName [ a pnv:PersonName ;
 	    pnv:baseSurname "Wedewer" ;
 	    pnv:givenName "Petrus" ;
+        pnv:literalName "Petrus Wedewer" ;
 	]
 #	tbd:religie "Rooms-Katholiek" ;
 #	tbd:gehuwd "ja" ;
@@ -42,7 +42,7 @@
 #	tbd:legeronderdeel "bla die bla" ;
 #	tbd:rang "bla die bla" ;
 	rico:hasOccupation "smid" ;
-    roar:role <https://id.archief.amsterdam/UUID-van-geregistreerde> ; # geregistreerde is eigenlijk geen rol, weglaten is beter
+    roar:role <https://id.archief.amsterdam/UUID-van-geregistreerde> ; # geregistreerde is eigenlijk geen rol, weglaten is beter. Maar niet voor de vreemdelingenkaarten?
     schema:birthPlace "Zevenaar" ;
     schema:birthDate "1818-03-23" .
 

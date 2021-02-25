@@ -1,10 +1,14 @@
 <record>
-    <!-- https://archief.amsterdam/indexen/deeds/e46da468-ada0-4a11-a351-c2eec40f616d -->
+    <!--
+    https://archief.amsterdam/indexen/deeds/8feff28b-d089-4c59-bb4e-f62add6f51eb # link naar akte/record
+    https://archief.amsterdam/indexen/deeds/8feff28b-d089-4c59-bb4e-f62add6f51eb?person=962316b3-c575-1f3a-e053-b784100aab65 # link naar persoon
+    -->
     <type>registratie</type>
     <bronverwijzing>Buurt U, afdeling 6, deel 1</bronverwijzing>
     <paginanummer>pagina 1577</paginanummer>
     <inventaris>https://archief.amsterdam/archief/5000/548</inventaris>
     <scans>
+        <bestandsnaam>Of deze aanleveren?</bestandsnaam>
         <scan_uuid>8feff28b-d089-4c59-bb4e-f62add6f51eb</scan_uuid>
     </scans>
     <personen>
@@ -14,13 +18,6 @@
             <achternaam>Wedewer</achternaam>
             <geboortedatum>28-03-1818</geboortedatum>
             <overlijdensdatum></overlijdensdatum>
-            <!-- bewust alleen geboorte en overlijden? En waarom dan voor locaties hier anders? Of ook blokjes?-->
-            <datums>
-                <datum>
-                    <type>geboortedatum</type>
-                    <label>28-03-1818</label>
-                </datum>
-            </datums>
             <locaties>
                 <locatie>
                     <type>geboorteplaats</type>
