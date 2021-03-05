@@ -16,12 +16,12 @@
 
 <https://id.archief.amsterdam/e46da468ada04a11a351c2eec40f616d>
 	a rico:Record ;
-	rdfs:label "pagina 1577" ; 
+	rdfs:label "pagina 1577" ;
 #	saa:heeftGeregistreerde <https://id.archief.amsterdam/962316b4b0a51f3ae053b784100aab65> ;
 #	rico:hasOrHadSubject <https://id.archief.amsterdam/962316b4b0a51f3ae053b784100aab65> ;
 	roar:hasPerson <https://id.archief.amsterdam/962316b4b0a51f3ae053b784100aab65> ;
-	roar:hasLocation <https://id.archief.amsterdam/UUID-voor-locatie-observatie> ;	
-	rico:hasRecordSetType <https://id.archief.amsterdam/UUID-van-inschrijving-bevolkingsregister> ;
+	roar:hasLocation <https://id.archief.amsterdam/UUID-voor-locatie-observatie> ;
+    rico:hasDocumentaryFormType <https://id.archief.amsterdam/UUID-van-inschrijving-bevolkingsregister> ;
     rico:isOrWasIncludedIn <https://id.archief.amsterdam/3e24a78048ce6f5a87328d6fd4923224> . 
 
 <https://id.archief.amsterdam/8feff28bd0894c59bb4ef62add6f51eb>
@@ -37,12 +37,14 @@
 	    pnv:givenName "Petrus" ;
         pnv:literalName "Petrus Wedewer" ;
 	];
+# bio age ?
+
 #	tbd:religie "Rooms-Katholiek" ;
 #	tbd:gehuwd "ja" ;
 #	tbd:overleden "ja" ;
 #	tbd:legeronderdeel "bla die bla" ;
 #	tbd:rang "bla die bla" ;
-	rico:hasOccupation "smid" ;
+	rico:hasOrHadOccupationOfType <https://voc.archief.amsterdam/beroep/smid>;
     roar:role <https://id.archief.amsterdam/UUID-van-geregistreerde> ; # geregistreerde is eigenlijk geen rol, weglaten is beter. Maar niet voor de vreemdelingenkaarten?
     schema:birthPlace "Zevenaar" ;
     schema:birthDate "1818-03-23" .
@@ -50,6 +52,8 @@
 <https://id.archief.amsterdam/UUID-voor-locatie-observatie>
 	a rico:Place, roar:LocationObservation ;
 	rdfs:label "U 616" ;
+##schema:address
+
 #   tbd:benaming_in_bron "Kadijk Hoogte" ;
 #   tbd:buurtcode "U" ;
 #   tbd:buurtnummer "616" ;
@@ -60,15 +64,22 @@
 	roar:role <https://id.archief.amsterdam/UUID-voor-woonadres> .
 
 # VOCABULARY
-
+# tupe adres op een akte
 <https://id.archief.amsterdam/UUID-van-woonadres>
     a skos:Concept ;
     rdfs:label "woonadres" .
 
+# akte typen worden DocumentoryFormTypes
 <https://id.archief.amsterdam/UUID-van-inschrijving-bevolkingsregister>
-    a rico:RecordSetType ;
+    a rico:DocumentaryFormType ;
     rdfs:label "inschrijving bevolkingsregister" .
 
+# type (rol) persoon op een akte
 <https://id.archief.amsterdam/UUID-van-geregistreerde>
     a skos:Concept ;
     rdfs:label "geregistreerde" .
+
+# later beslissen: alles met id. en UUID of eigen voc en betekenisvolle uris?
+<https://voc.archief.amsterdam/beroep/smid>
+    a rico:OccupationType ;
+    rdfs:label "smid" .
