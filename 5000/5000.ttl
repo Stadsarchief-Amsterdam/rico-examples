@@ -5,6 +5,7 @@
 @prefix roar: <https://www.ica.org/standards/RiC/ontology#> .
 @prefix pnv: <https://w3id.org/pnv#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix hg: <http://rdf.histograph.io/>.
 
 <https://id.archief.amsterdam/3e24a78048ce6f5a87328d6fd4923224>
 	a rico:RecordSet ;
@@ -42,9 +43,10 @@
 #	tbd:religie "Rooms-Katholiek" ;
 #	tbd:gehuwd "ja" ;
 #	tbd:overleden "ja" ;
-#	tbd:legeronderdeel "bla die bla" ;
+#	tbd:legeronderdeel "kurassiers" ;
 #	tbd:rang "bla die bla" ;
-	rico:hasOrHadOccupationOfType <https://voc.archief.amsterdam/beroep/smid>;
+#	rico:hasOrHadOccupationOfType <https://voc.archief.amsterdam/beroep/smid>; #eigen voc nodig? of nu literal strings en later hisco?
+	rico:hasOrHadOccupationOfType <https://iisg.amsterdam/resource/hsn/occupation/smid>; #eigen voc nodig? of nu literal strings en later hisco?
     roar:role <https://id.archief.amsterdam/UUID-van-geregistreerde> ; # geregistreerde is eigenlijk geen rol, weglaten is beter. Maar niet voor de vreemdelingenkaarten?
     schema:birthPlace "Zevenaar" ;
     schema:birthDate "1818-03-23" .
@@ -52,8 +54,13 @@
 <https://id.archief.amsterdam/UUID-voor-locatie-observatie>
 	a rico:Place, roar:LocationObservation ;
 	rdfs:label "U 616" ;
-##schema:address
-
+    hg:Neighbourhood "U 616";
+    hg:street <https://adamlink.nl/geo/street/hoogte-kadijk/1877> ;
+    schema:address [
+       a schema:PostalAddress ;
+       schema:addressLocality "Amsterdam" ;
+       schema:streetAddress "Kadijk Hoogte 150"
+   ] ;
 #   tbd:benaming_in_bron "Kadijk Hoogte" ;
 #   tbd:buurtcode "U" ;
 #   tbd:buurtnummer "616" ;
@@ -70,6 +77,7 @@
     rdfs:label "woonadres" .
 
 # akte typen worden DocumentoryFormTypes
+<https://voc.archief.amsterdam/inschrijving-bevolkingsregister>
 <https://id.archief.amsterdam/UUID-van-inschrijving-bevolkingsregister>
     a rico:DocumentaryFormType ;
     rdfs:label "inschrijving bevolkingsregister" .
