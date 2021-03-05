@@ -2,6 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix roar: <https://www.ica.org/standards/RiC/ontology#> .
 @prefix pnv: <https://w3id.org/pnv#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
@@ -35,7 +36,7 @@
 	    pnv:baseSurname "Wedewer" ;
 	    pnv:givenName "Petrus" ;
         pnv:literalName "Petrus Wedewer" ;
-	]
+	];
 #	tbd:religie "Rooms-Katholiek" ;
 #	tbd:gehuwd "ja" ;
 #	tbd:overleden "ja" ;
