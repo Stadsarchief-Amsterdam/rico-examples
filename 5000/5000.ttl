@@ -2,7 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
 @prefix rico: <https://www.ica.org/standards/RiC/ontology#> .
-@prefix roar: <https://www.ica.org/standards/RiC/ontology#> .
+@prefix roar: <https://w3id.org/roar#> .
 @prefix pnv: <https://w3id.org/pnv#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix hg: <http://rdf.histograph.io/>.
@@ -11,7 +11,7 @@
 	a rico:RecordSet ;
 	rdfs:label "invnr 548" ;
 	rico:title "Buurt U, afdeling 6, deel 1" ;
-	rdfs:date "1851-01-01/1853-12-31" ;
+	rdfs:dateCreated "1851-01-01/1853-12-31" ;
 	rico:identifier "548" ;
 	schema:url "https://archief.amsterdam/archief/5000/548" .
 
@@ -38,13 +38,18 @@
 	    pnv:givenName "Petrus" ;
         pnv:literalName "Petrus Wedewer" ;
 	];
-# bio age ?
+# 	foaf:age 
 
 #	tbd:religie "Rooms-Katholiek" ;
 #	tbd:gehuwd "ja" ;
 #	tbd:overleden "ja" ;
-#	tbd:legeronderdeel "kurassiers" ;
-#	tbd:rang "bla die bla" ;
+
+#	LEGER
+#	http://rdf.muninn-project.org/ontologies/military.html
+#	kunnen we legeronderdeel een Agent maken? En rang?
+
+#	tbd:legeronderdeel "kurassiers" ; rico:isOrWasMemberOf <legeronderdeel>
+#	tbd:rang "bla die bla" ; rico:hasOrHadPosition <rang>
 #	rico:hasOrHadOccupationOfType <https://voc.archief.amsterdam/beroep/smid>; #eigen voc nodig? of nu literal strings en later hisco?
 	rico:hasOrHadOccupationOfType <https://iisg.amsterdam/resource/hsn/occupation/smid>; #eigen voc nodig? of nu literal strings en later hisco?
     roar:role <https://id.archief.amsterdam/UUID-van-geregistreerde> ; # geregistreerde is eigenlijk geen rol, weglaten is beter. Maar niet voor de vreemdelingenkaarten?
@@ -71,13 +76,16 @@
 	roar:role <https://id.archief.amsterdam/UUID-voor-woonadres> .
 
 # VOCABULARY
-# tupe adres op een akte
+# type adres op een akte
 <https://id.archief.amsterdam/UUID-van-woonadres>
     a skos:Concept ;
     rdfs:label "woonadres" .
 
 # akte typen worden DocumentoryFormTypes
 <https://voc.archief.amsterdam/inschrijving-bevolkingsregister>
+    a rico:DocumentaryFormType ;
+    rdfs:label "inschrijving bevolkingsregister" .
+
 <https://id.archief.amsterdam/UUID-van-inschrijving-bevolkingsregister>
     a rico:DocumentaryFormType ;
     rdfs:label "inschrijving bevolkingsregister" .
